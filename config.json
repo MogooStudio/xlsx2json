@@ -1,8 +1,10 @@
 {
     "xlsx": {
-        "head": 1,
+        "head": 2,
         "src": "./excel/**/[^~$]*.xlsx",
-        "dest": "./json",
+        "src1":"./excel/",
+        "dest": "./excel/json",
+        "js_path":"./excel/ktjson.js",
         "arraySeparator":","
     }
 }

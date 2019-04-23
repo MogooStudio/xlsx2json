@@ -1,0 +1,15 @@
+
+[excel导表工具]
+1、导出指定excel的指定表单
+node index.js --export 表单名 excel表源路径（带后缀） excel表导出路径
+node index.js --export 111 C:\Users\pc7\Desktop\execl2Json\app\pages\xlsx2json-master\excel\heroes.xlsx C:\Users\pc7\Desktop\execl2Json\app\pages\xlsx2json-master\excel\json\ 
+
+2、导出目标路径下所有excel
+node index.js --all excel表源路径（不带后缀） excel表导出路径
+node index.js --all C:\Users\pc7\Desktop\execl2Json\app\pages\xlsx2json-master\excel\ C:\Users\pc7\Desktop\execl2Json\app\pages\xlsx2json-master\excel\json\ 
+
+[拼接json工具]
+1、tools.js放在json文件路径下
+2、拼接命令
+node tools.js json文件路径 ktjson.js所在路径
+node tools.js E:\h5\game\bin\dynamic\configjson\ E:\h5\game\bin\dynamic\configjson\ktjson.js
